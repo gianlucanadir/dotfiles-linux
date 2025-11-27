@@ -5,11 +5,13 @@ size = 13
 
 [font.normal]
 # family = "GeistMono Nerd Font Mono"
-family = "JetBrains Mono Nerd Font"
+# family = "JetBrains Mono Nerd Font"
+family = "Hack Nerd Font Mono"
 
 [window]
 decorations = "None"
 startup_mode = "Maximized"
+padding = { x = 10, y = 10 }
 # opacity = 0.95
 
 [colors.primary]
