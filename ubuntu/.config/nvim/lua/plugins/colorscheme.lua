@@ -1,18 +1,15 @@
 return {
   {
-    "rose-pine/neovim",
-    name = "rose-pine",
+    "catppuccin/nvim",
     opts = {
-      styles = {
-        transparency = true,
-        italic = false,
-      },
+      transparent_background = true,
+      no_italic = true,
     },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "catppuccin",
     },
   },
 }

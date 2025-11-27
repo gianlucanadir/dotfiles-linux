@@ -5,9 +5,10 @@
   "name": "Search Light",
   "schema-id": "org.gnome.shell.extensions.search-light",
   "shell-version": [
-    "48"
+    "48",
+    "49"
   ],
   "url": "https://github.com/icedman/search-light",
   "uuid": "search-light@icedman.github.com",
-  "version": 38
+  "version": 39
 }
