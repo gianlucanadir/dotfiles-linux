@@ -1,18 +1,21 @@
-# general.import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
+general.import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
+# general.import = ["~/.config/alacritty/themes/gruvbox-dark.toml"]
 
 [font]
 size = 13
 
 [font.normal]
-# family = "GeistMono Nerd Font Mono"
+family = "GeistMono Nerd Font Mono"
 # family = "JetBrains Mono Nerd Font"
-family = "Hack Nerd Font Mono"
+# family = "Hack Nerd Font Mono"
 
 [window]
-decorations = "None"
-startup_mode = "Maximized"
-padding = { x = 10, y = 10 }
+# decorations = "None"
+# startup_mode = "Maximized"
 # opacity = 0.95
+padding = { x = 10, y = 10 }
+dimensions = { columns = 95, lines = 23 }
 
 [colors.primary]
 background = "#000000"
+# background = "#1e1e2e"
