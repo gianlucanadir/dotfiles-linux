@@ -1,0 +1,6 @@
+inherits = "rose_pine"
+
+[palette]
+base = "#000000"
+surface = "#000000"
+overlay = "#000000"

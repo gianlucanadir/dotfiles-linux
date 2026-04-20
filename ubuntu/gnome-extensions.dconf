@@ -1,0 +1,45 @@
+[auto-move-windows]
+application-list=['kitty.desktop:1', 'chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop:8', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop:9', 'telegram-desktop_telegram-desktop.desktop:9', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-Default.desktop:3', 'steam.desktop:5', 'chrome-mibgiapfolionpapiffjmagepkdbmdjn-Default.desktop:4', 'discord.desktop:8', 'brave-browser.desktop:2']
+
+[dash-to-dock]
+background-opacity=0.80000000000000004
+dash-max-icon-size=48
+dock-position='LEFT'
+height-fraction=0.90000000000000002
+hot-keys=false
+preferred-monitor=-2
+preferred-monitor-by-connector='DP-4'
+
+[ding]
+check-x11wayland=true
+
+[emoji-copy]
+recently-used=['😂', '❤️', '😍', '😭', '😊', '😒', '😘', '😩', '🤔', '☺️', '👌']
+
+[just-perfection]
+animation=0
+support-notifier-showed-version=36
+workspace-popup=false
+
+[pop-shell]
+active-hint=true
+gap-inner=uint32 0
+gap-outer=uint32 0
+hint-color-rgba='rgb(145,108,251)'
+tile-by-default=true
+
+[search-light]
+animation-speed=100.0
+blur-brightness=0.59999999999999998
+blur-sigma=30.0
+entry-font-size=1
+monitor-count=3
+preferred-monitor=0
+scale-height=0.10000000000000001
+scale-width=0.10000000000000001
+shortcut-search=['<Super>backslash']
+
+[tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+tiling-popup-all-workspace=true
