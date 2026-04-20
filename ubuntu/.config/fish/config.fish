@@ -16,7 +16,7 @@ if test -f $HOME/.config/fish/secrets.fish
 end
 
 # Prepend custom binary directories to PATH, avoiding duplicates automatically
-fish_add_path -m $HOME/.bin $HOME/.local/bin /usr/local/bin /usr/local/go/bin $fish_user_paths
+fish_add_path -m $HOME/.bin $HOME/.local/bin $HOME/go/bin /usr/local/bin /usr/local/go/bin $fish_user_paths
 
 # Load aliases from a dedicated file
 source $HOME/.config/fish/aliases.fish
