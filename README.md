@@ -17,3 +17,13 @@ stow --target=$HOME omarchy
 # to stow specific files
 stow --target=$HOME --ignore='ghostty' --ignore='alacritty' ubuntu
 ```
+
+## Dump and Load gnome-extensions configurations
+
+```sh
+# dump
+dconf dump /org/gnome/shell/extensions/ > ~/dotfiles/ubuntu/gnome-extensions.dconf
+
+#load
+dconf load /org/gnome/shell/extensions/ < ~/dotfiles/ubuntu/gnome-extensions.dconf
+```
