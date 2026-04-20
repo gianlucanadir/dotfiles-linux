@@ -1,7 +1,7 @@
 # My Linux dotfiles
 
-⚠️ **Prerequisite:** You need to have [GNU Stow](https://www.gnu.org/software/stow/) installed on your system before using this repository.  
-`sudo apt install stow`
+**Prerequisite:** You need to have [GNU Stow](https://www.gnu.org/software/stow/) installed on your system before using this repository.  
+Install stow with apt: `sudo apt install stow`
 
 ## Install
 
@@ -18,7 +18,7 @@ stow --target=$HOME omarchy
 stow --target=$HOME --ignore='ghostty' --ignore='alacritty' ubuntu
 ```
 
-## Dump and Load gnome-extensions configurations
+## Dump and load gnome-extensions configurations
 
 ```sh
 # dump
