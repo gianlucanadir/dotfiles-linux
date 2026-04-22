@@ -1,0 +1,33 @@
+theme = "custom_rose_pine"
+
+[editor]
+line-number = "relative"
+# auto-format = true
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control", "file-name", "file-modification-indicator"]
+
+[keys.normal]
+C-w = "no_op"
+"L" = ":bn"
+"H" = ":bp"
+
+[keys.normal."space"]
+"q" = ":bc"
+
+[keys.normal."space"."z"]
+r = ":reload-all"
+f = ":fmt"
+w = ":toggle soft-wrap.enable"
+s = [
+  ":write-all",
+  ":run-shell-command wt.exe new-tab scooter --no-stdin",
+  ":redraw",
+  ":reload-all"
+]
+g = [
+  ":write-all",
+  ":run-shell-command wt.exe new-tab lazygit",
+  ":redraw",
+  ":reload-all"
+]

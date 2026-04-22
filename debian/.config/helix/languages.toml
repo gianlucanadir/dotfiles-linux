@@ -1,0 +1,11 @@
+[[language]]
+name = "bash"
+auto-format = true
+# sudo snap install bash-language-server --classic
+language-servers = ["bash-language-server"]
+
+[language-server.gopls]
+command = "gopls"
+args = ["-logfile=/tmp/gopls.log",  "serve"]
+[language-server.gopls.config]
+"ui.diagnostic.staticcheck" = true
