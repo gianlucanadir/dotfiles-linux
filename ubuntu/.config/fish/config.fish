@@ -37,6 +37,7 @@ fzf --fish | source
 mise activate fish | source
 
 # Initialize zoxide, a smarter cd that learns your most visited directories
+# sudo apt install zoxide
 zoxide init fish | source
 
 # Initialize Starship, a fast and customizable cross-shell prompt
