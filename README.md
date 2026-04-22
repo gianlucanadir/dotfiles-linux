@@ -10,15 +10,14 @@ Clone the repository in your home directory and stow the dotfiles you need:
 ```sh
 git clone git@github.com:gvnadir/dotfiles-linux.git ~/dotfiles/
 cd ~/dotfiles
+# stow ubuntu's dotfiles
 stow --target=$HOME ubuntu 
-#or 
-stow --target=$HOME omarchy
 
-# to stow specific files
+# to stow specific files from ubuntu
 stow --target=$HOME --ignore='ghostty' --ignore='alacritty' ubuntu
 ```
 
-## Dump and load gnome-extensions configurations
+### Dump and load gnome-extensions configurations
 
 ```sh
 # dump
