@@ -27,7 +27,7 @@ dconf dump /org/gnome/shell/extensions/ > ~/dotfiles/ubuntu/gnome-extensions.dco
 dconf load /org/gnome/shell/extensions/ < ~/dotfiles/ubuntu/gnome-extensions.dconf
 ```
 
-## Dump and load gnome-shortcuts
+### Dump and load gnome-shortcuts
 
 ```sh
 # dump
