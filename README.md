@@ -26,3 +26,14 @@ dconf dump /org/gnome/shell/extensions/ > ~/dotfiles/ubuntu/gnome-extensions.dco
 #load
 dconf load /org/gnome/shell/extensions/ < ~/dotfiles/ubuntu/gnome-extensions.dconf
 ```
+
+## Dump and load gnome-shortcuts
+
+```sh
+# dump
+dconf dump /org/gnome/settings-daemon/plugins/media-keys/ > ~/.dotfiles/gnome-shortcuts.conf
+
+#load
+dconf load /org/gnome/settings-daemon/plugins/media-keys/ < ~/.dotfiles/gnome-shortcuts.conf
+```
+
