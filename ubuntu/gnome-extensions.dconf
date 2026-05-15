@@ -1,31 +1,45 @@
 [auto-move-windows]
-application-list=['kitty.desktop:1', 'chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop:8', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop:9', 'telegram-desktop_telegram-desktop.desktop:9', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-Default.desktop:3', 'steam.desktop:5', 'chrome-mibgiapfolionpapiffjmagepkdbmdjn-Default.desktop:4', 'discord.desktop:8', 'brave-browser.desktop:2']
+application-list=['kitty.desktop:1', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop:9', 'telegram-desktop_telegram-desktop.desktop:9', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-Default.desktop:3', 'steam.desktop:5', 'chrome-mibgiapfolionpapiffjmagepkdbmdjn-Default.desktop:4', 'discord.desktop:8', 'brave-browser.desktop:2', 'thunderbird_thunderbird.desktop:10']
+
+[clipboard-history]
+private-mode=false
 
 [dash-to-dock]
+apply-custom-theme=false
 background-opacity=0.80000000000000004
-dash-max-icon-size=48
-dock-position='LEFT'
+custom-theme-shrink=true
+dash-max-icon-size=43
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
 height-fraction=0.90000000000000002
 hot-keys=false
 preferred-monitor=-2
-preferred-monitor-by-connector='DP-4'
+preferred-monitor-by-connector='eDP-1'
+preview-size-scale=0.0
 
 [ding]
 check-x11wayland=true
+show-trash=false
+show-volumes=true
 
 [emoji-copy]
 recently-used=['😂', '❤️', '😍', '😭', '😊', '😒', '😘', '😩', '🤔', '☺️', '👌']
 
 [just-perfection]
 animation=0
+clock-menu-position=0
+overlay-key=false
+startup-status=0
 support-notifier-showed-version=36
+theme=false
 workspace-popup=false
 
 [pop-shell]
 active-hint=true
-gap-inner=uint32 0
-gap-outer=uint32 0
-hint-color-rgba='rgb(145,108,251)'
+gap-inner=uint32 3
+gap-outer=uint32 3
+hint-color-rgba='rgb(128,108,251)'
 tile-by-default=true
 
 [search-light]
