@@ -1,11 +1,15 @@
 font_size 14
-window_padding_width 0
-window_padding_height 0
-# window_margin_width 0
+window_padding_width 1
 enable_audio_bell no
-# hide_window_decorations yes
+hide_window_decorations no
 
 font_family Hack Nerd Font
 bold_font        Hack Nerd Font Bold
 italic_font      Hack Nerd Font Italic
 bold_italic_font Hack Nerd Font Bold Italic
+
+
+# BEGIN_KITTY_THEME
+# Night Owl
+include current-theme.conf
+# END_KITTY_THEME

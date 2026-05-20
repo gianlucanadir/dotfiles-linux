@@ -1,5 +1,5 @@
 # theme = "custom_rose_pine"
-theme = "catppuccin_mocha"
+theme = "rose_pine"
 
 [editor]
 line-number = "relative"
